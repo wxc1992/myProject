@@ -1,0 +1,440 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color:#352c2c;
+  font-family: 'avenir Next', 'sans-serif';
+}
+/*<!-- ������ʼ-->*/
+/*#jian02 header{*/
+       /*width:100%;*/
+       /*background: rgba(0,0,0,0.3);*/
+     /*}*/
+/*#jian02 header nav{*/
+  /*width: 100%;*/
+  /*height: 50px;*/
+  /*position: fixed;*/
+  /*top:0;*/
+  /*left:0;*/
+  /*background: rgba(77,106,120,0.5);*/
+  /*z-index: 4;*/
+/*}*/
+/*#jian02 header nav h1{*/
+  /*float: left;*/
+  /*height: 50px;*/
+  /*line-height: 50px;*/
+  /*margin-left: 70px;*/
+  /*font-size: 30px;*/
+  /*color: #FFF;*/
+  /*font-family: Magneto;*/
+/*}*/
+/*#jian02 header nav ul{*/
+  /*height: 50px;*/
+  /*line-height: 50px;*/
+  /*padding-right:50px;*/
+/*}*/
+/*#jian02  header nav ul li{*/
+  /*float: left;*/
+
+/*}*/
+/*#jian02 header nav ul li a{*/
+  /*padding:0 20px;*/
+  /*display: block;*/
+  /*color: #fff;*/
+/*}*/
+/*#jian02 header nav ul li a:hover{*/
+  /*color: #333;*/
+  /*text-decoration: none;*/
+/*}*/
+
+
+
+/*��һ����*/
+
+#jian02 .head{
+  width: 1200px;
+  height: 30px;
+  margin: auto;
+  margin-top: 60px;
+  background-color: black;
+  opacity: 0.3;
+}
+#jian02 .head .lhead{
+  float: left;
+  width: 400px;
+  height: 2px;
+  margin-top: 14px;
+  background-color: hotpink;
+  margin-left: 50px;
+}
+#jian02 .head .mhead{
+  float: left;
+  margin-left: 80px;
+}
+#jian02 .head .mhead span{
+  font: 24px/30px "΢���ź�";
+  padding: 0px 5px;
+  color: white;
+}
+#jian02 .head .rhead{
+  float: right;
+  width: 400px;
+  height: 2px;
+  margin-top: 14px;
+  background-color: hotpink;
+  margin-right: 50px;
+}
+#jian02 .top{
+  width: 1200px;
+  height: 450px;
+  /*background-color: hotpink;*/
+  margin: 20px auto;
+  border: 1px solid #333333;
+  overflow: hidden;
+  position: relative;
+}
+#jian02 .top li{
+  width: 1200px;
+  height: 450px;
+  float: left;
+  position: absolute;
+}
+#jian02 .middle{
+  width: 1200px;
+  height: 420px;
+  /*background-color: yellowgreen;*/
+  margin: auto;
+}
+#jian02 .bottom{
+  width: 1200px;
+  height: 300px;
+  background-color: skyblue;
+  margin:35px auto;
+  margin-bottom: 50px;
+}
+
+/*�ڶ�����*/
+.container {
+  position: relative;
+  transition: all .3s ease;
+  transition: all .3s ease;
+}
+div[class*='card-container-'] {
+  position: relative;
+  margin: 20px 30px;
+  width: 240px;
+  height: 380px;
+  perspective: 500px;
+  perspective: 500px;
+}
+.card h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 1em 0 0 1em;
+}
+/*��һ��*/
+.card-container-2{
+  cursor: pointer;
+  cursor: hand;
+  color: #ff887b;
+  float: left;
+}
+.card-container-2 .controller {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: none;
+}
+.card-container-2 .controller.left {
+  left: 0;
+}
+.card-container-2 .controller.right {
+  right: 0;
+}
+.card-container-2 .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 2px;
+  background-color: mistyrose;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 90;
+  opacity: .9;
+}
+.card-container-2 .card:first-of-type {
+  z-index: 100;
+  opacity: 1;
+}
+.card-container-2 .card:nth-of-type(n+2) {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.card-container-2:hover .card:first-of-type {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+.card-container-2:hover .card:nth-last-of-type(2) {
+  -webkit-transform: scale(0.8) rotate(-5deg) translateY(-20px);
+  transform: scale(0.8) rotate(-5deg) translateY(-20px);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+.card-container-2:hover .card:last-of-type {
+  -webkit-transform: scale(0.8) rotate(5deg) translateY(-20px);
+  transform: scale(0.8) rotate(5deg) translateY(-20px);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+}
+/*�ڶ���*/
+.card-container-4 {
+  float: left;
+}
+.card-container-4 .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 2px;
+  background-color: tomato;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-container-4 .card:last-of-type {
+  z-index: 80;
+}
+.card-container-4 .card:nth-last-of-type(2) {
+  z-index: 90;
+}
+.card-container-4 .card:first-of-type {
+  z-index: 100;
+}
+.card-container-4:hover .card:first-of-type {
+  opacity: .8;
+}
+.card-container-4:hover .card:first-of-type:hover {
+  top: 0;
+}
+.card-container-4:hover .card:first-of-type ~ .card {
+  cursor: pointer;
+  cursor: hand;
+}
+.card-container-4:hover .first {
+ transform: scale(0.5) translateX(-105%);
+ transform: scale(0.5) translateX(-105%);
+}
+.card-container-4:hover .second {
+ transform: scale(0.5) translateX(0);
+ transform: scale(0.5) translateX(0);
+}
+.card-container-4:hover .third {
+  transform: scale(0.5) translateX(105%);
+  transform: scale(0.5) translateX(105%);
+}
+.card-container-4:hover .card:hover {
+  top: -5px;
+}
+/*������*/
+.card-container-5 {
+  cursor: pointer;
+  cursor: hand;
+  /*color: #793c11;*/
+  float: left;
+}
+.card-container-5 .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 2px;
+  background-color: chocolate;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+.card-container-5 .card:last-of-type {
+  z-index: 80;
+}
+.card-container-5 .card:nth-last-of-type(2) {
+  z-index: 90;
+}
+.card-container-5 .card:first-of-type {
+  z-index: 100;
+}
+.card-container-5:hover .card {
+  border-bottom-left-radius: 10px;
+}
+.card-container-5:hover .card:first-of-type {
+  transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+.card-container-5:hover .card:nth-of-type(2) {
+  transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.card-container-5:hover .card:last-of-type {
+  transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+/*���Ŀ�*/
+.card-container-6 {
+  /*color: #1ec71e;*/
+  float: left;
+}
+.card-container-6 .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 2px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-container-6 .card:last-of-type {
+  z-index: 80;
+  transform: scale(0.45);
+  transform: scale(0.45);
+  transform-origin: bottom center;
+  transform-origin: bottom center;
+}
+.card-container-6 .card:nth-last-of-type(2) {
+  z-index: 90;
+  transform: scale(0.45);
+  transform: scale(0.45);
+  transform-origin: bottom center;
+  transform-origin: bottom center;
+}
+.card-container-6 .card:first-of-type {
+  z-index: 100;
+  transform-origin: top center;
+  transform-origin: top center;
+}
+.card-container-6:hover .card:first-of-type {
+  transform: scale(0.8) translateY(-21px);
+  transform: scale(0.8) translateY(-21px);
+}
+.card-container-6:hover .card:nth-of-type(2) {
+  cursor: hand;
+  cursor: pointer;
+  transform: scale(0.38) translate(-55%, 35%);
+  transform: scale(0.38) translate(-55%, 35%);
+}
+.card-container-6:hover .card:last-of-type {
+  cursor: hand;
+  cursor: pointer;
+  transform: scale(0.38) translate(55%, 35%);
+  transform: scale(0.38) translate(55%, 35%);
+}
+
+/*��������*/
+#jian02 .bottom{
+  width: 1200px;
+  height: 500px;
+  background: url("../images/man/redio.jpg") no-repeat 0 0;
+  position: relative;
+}
+#jian02 .bottom h2,h4{
+  font: italic 700 32px/32px "΢���ź�";
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+}
+#jian02 .bottom .line{
+  width: 200px;
+  height: 2px;
+  background-color:black;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+#jian02 .bottom p{
+  width: 800px;
+  height: 75px;
+  display: block;
+  margin: 8em auto 4em;
+  color: #fff;
+  line-height: 1.8em
+}
+#jian02 .bottom  .video a{
+  width: 40px;
+  height: 38px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 20px;
+  font-family: 'Glyphicons Halflings';
+  background: url("../images/man/vedio.png");
+}
+
+#jian02 #play {
+  width: 600px;
+  height: 350px;
+  border: 8px solid #ffffff;
+  padding: 7px;
+  background-color: #EBEBEB;
+  box-shadow: 0px 0px 20px #ddd;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -300px;
+  z-index: 9999;
+  bottom: 30px;
+  display: none;
+}
+
+#jian02 #play  span a{
+  width: 40px;
+  height: 40px;
+  display: block;
+  font:  700 24px/40px "microsoft yahei";
+  text-decoration: none;
+  position: absolute;
+  right: -20px;
+  top: -30px;
+  background: #ffffff;
+  border: #ebebeb solid 1px;
+  border-radius: 20px;
+  text-align: center;
+}
+/*****footer��ʼ*****/
+/*#jian02 footer{*/
+  /*width:1349px;*/
+  /*height:200px;*/
+  /*background: #333;*/
+  /*text-align: center;*/
+/*}*/
+/*#jian02 footer .firend-link{*/
+  /*width:1080px;*/
+  /*height:60px;*/
+  /*margin:0 auto;*/
+  /*padding:50px 0;*/
+  /*color: #FFF;*/
+/*}*/
+/*#jian02 footer .firend-link li{*/
+  /*display: inline-block;*/
+  /*background: skyblue;*/
+  /*width: 60px;*/
+  /*height:60px;*/
+/*}*/
+/*#jian02 footer .copyright{*/
+  /*height:40px;*/
+  /*color: #FFF;*/
+  /*font-size:14px;*/
+/*}*/

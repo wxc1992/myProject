@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>街拍</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+    #street_pic{
+        position: relative;
+        z-index: -1;
+    }
+    .waterfall{
+        padding: 4px;
+        border: 1px solid #333333;
+        float: left;
+        background: #333333;
+        font-size: 0;
+    }
+
+    </style>
+</head>
+<body>
+<header>
+    <nav class="clearfix" style="background: rgba(82,24,170,0.5);">
+        <a href="index.html"><h1>六麦时尚</h1></a>
+        <!--<div class="mic l">-->
+        <!--&lt;!&ndash;<audio src="Slo%20-%20Nothing%20Hurts%20Like%20This.mp3" autoplay="autoplay" controls="controls">&ndash;&gt;-->
+        <!--</audio>-->
+        <!--</div>-->
+        <ul class="r">
+            <li><a href="man.html">男士时尚</a></li>
+            <li><a href="watcher.html">腕表</a></li>
+            <li><a href="shoes.html">鞋包</a></li>
+            <li><a href="fashion.html">时装周</a></li>
+            <li><a href="waterfall.html">街拍</a></li>
+            <li><a href="women.html">时尚美图</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="street_pic">
+    <div class="waterfall"><img src="images/street/waterfull01.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull02.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull03.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull04.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull05.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull06.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull07.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull08.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull09.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull10.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull11.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull12.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull13.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull14.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull15.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull16.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull17.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull18.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull19.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull20.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull21.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull22.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull23.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull24.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull25.jpg" alt=""></div>
+    <div class="waterfall"><img src="images/street/waterfull26.jpg" alt=""></div>
+
+</div>
+
+<button class="back-to-top">回到顶部</button>
+<script src="js/jquery.js"></script>
+<script>
+
+$(window).on('load',function(){
+    waterfall();
+    var dataInt = {"data":[
+        {'src':'01.jpg'},
+        {'src':'02.jpg'},
+        {'src':'03.jpg'},
+        {'src':'04.jpg'},
+        {'src':'05.jpg'},
+        {'src':'06.jpg'},
+        {'src':'07.jpg'},
+        {'src':'08.jpg'},
+        {'src':'09.jpg'},
+        {'src':'10.jpg'},
+        {'src':'11.jpg'},
+        {'src':'12.jpg'},
+        {'src':'13.jpg'},
+        {'src':'14.jpg'},
+        {'src':'15.jpg'},
+        {'src':'16.jpg'},
+        {'src':'17.jpg'},
+        {'src':'18.jpg'},
+        {'src':'19.jpg'},
+        {'src':'20.jpg'},
+        {'src':'21.jpg'},
+        {'src':'22.jpg'},
+        {'src':'23.jpg'},
+        {'src':'24.jpg'},
+        {'src':'25.jpg'},
+        {'src':'26.jpg'},
+    ]};
+    $(window).on('scroll',function(){
+
+        
+        if(checkScrollSlide()){
+            $.each(dataInt.data,function(key,value){
+                var water = $('<div>').addClass('waterfall').appendTo($('#street_pic'));
+                $('<img>').attr('src','images/street/waterfull'+$(value).attr('src')).appendTo(water);
+            });
+
+            waterfall();
+        }
+    });
+});
+
+
+function waterfall(){
+    var $waters = $('#street_pic').find('.waterfall');
+    var w = $waters.eq(0).outerWidth();
+    var columns=Math.floor($(window).width()/w);
+
+    $('#street_pic').width(w*columns).css('margin','0 auto');
+
+    var hArr = [];
+    $waters.each(function(index,value){
+        var h=$waters.eq(index).outerHeight();
+        if(index<columns){
+            hArr.push(h);
+        }else{
+            var minH = Math.min.apply(null,hArr);
+            var minIndex = $.inArray(minH,hArr);
+
+            $(value).css({
+                'position':'absolute',
+                'top':minH+'px',
+                'left':minIndex*w+'px'
+            })
+            hArr[minIndex]+=$waters.eq(index).outerHeight();
+        }
+//        console.log(hArr);
+    });
+
+}
+
+function checkScrollSlide(){
+
+    var $lastBox = $('#street_pic').find('.waterfall').last();
+//    var lastBoxDis = $lastBox.offset().top+Math.floor($lastBox.outerHeight()/2);
+    var lastBoxDis = $lastBox.offset().top;
+    var scrollTop = $(window).scrollTop();
+    var documentH = $(window).height();
+    return ( lastBoxDis < scrollTop + documentH ) ? true : false;
+}
+
+
+
+</script>
+</body>
+</html>

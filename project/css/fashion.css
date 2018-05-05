@@ -1,0 +1,855 @@
+@charset "utf-8";
+/*注意权重!  不要添加自己div以外的样式*/
+
+/*jian1*/
+
+/*jian2*/
+
+/*jian3*/
+
+/*jian4*/
+
+/*jian5*/
+
+/*jian6*/
+
+/*font: 12px/24px Arial, 'Microsoft Yahei', 宋体, sans-serif;*/
+
+/*fashion部分*/
+
+#jian6 a {
+    text-decoration: none;
+}
+
+#jian6 #fashWeeks {
+    width: 100%;
+    height: 1199px;
+    background: url("../images/jian6/pair.jpg") no-repeat;
+    position: relative;
+}
+#jian6 #fashWeeks .top1 {
+    height: 527px;
+    width: 100%;
+}
+#jian6 #fashWeeks .top1 .menu1 {
+    width: 87px;
+    height: 272px;
+    background: url("../images/jian6/select.png") no-repeat;
+    position: absolute;
+    right:212px;
+    top: 183px;
+}
+
+
+
+
+#jian6 #fashWeeks .top1 .menu1 .m1 {
+    height: 68px;
+}
+
+#jian6 #fashWeeks .top1 .menu1 .m2 {
+    height: 57px;
+}
+
+#jian6 #fashWeeks .top1 .menu1 .m3 {
+    height: 65px;
+}
+
+#jian6 #fashWeeks .top1 .menu1 .m4 {
+    height: 82px;
+}
+
+#jian6 #fashWeeks .top1 .menu1 a {
+    display: block;
+    width: 87px;
+    text-decoration: none;
+    text-indent: -2000px;
+    overflow: hidden;
+}
+
+#jian6 #fashWeeks .top1 .menu1 a:hover {
+    background: url("../images/jian6/selectcolor.png") no-repeat;
+}
+
+#jian6 #fashWeeks .top1 .menu1 .m2:hover {
+    background: url("../images/jian6/selectcolor.png") no-repeat 0px -68px;
+}
+#jian6 #fashWeeks .top1 .menu1 .m3:hover {
+    background: url("../images/jian6/selectcolor.png") no-repeat 0px -125px;
+}
+#jian6 #fashWeeks .top1 .menu1 .m4:hover {
+    background: url("../images/jian6/selectcolor.png") no-repeat 0px -190px;
+}
+#jian6 .top1 #shareBox1 li a {
+    width: 27px;
+    height: 27px;
+    display: block;
+    background-image: url("../images/jian6/share.png");
+    margin: 0 8px;
+}
+
+#jian6 .top1 #shareBox1 li .share1 {
+    background-position: -87px 0;
+}
+
+#jian6 .top1 #shareBox1 li .share2 {
+    background-position: 0 0;
+}
+
+#jian6 .top1 #shareBox1 li .share3 {
+    background-position: -130px 0;
+}
+
+#jian6 .top1 #shareBox1 li .share4 {
+    background-position: -43px 0;
+}
+
+#jian6 .top1 #shareBox1 li .share5 {
+    background-position: -172px 0;
+}
+
+#jian6 .top1 #shareBox1 ul {
+    position: absolute;
+    top: 395px;
+    left: 733px;
+}
+
+#jian6 .top1 #shareBox1 li {
+    float: left;
+    font-size: 14px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#jian6 #fashWeeks #middle1 #time1 {
+    width: 89px;
+    height: 55px;
+    background: url("../images/jian6/local-time.png");
+    position: absolute;
+    top: 541px;
+    left: 205px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 {
+    width: 97px;
+    height: 458px;
+    background: url("../images/jian6/pairs.png") no-repeat;
+    position: absolute;
+    left: 203px;
+    top: 598px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 a {
+    display: block;
+    height: 50px;
+    text-indent: -2000px;
+    overflow: hidden;
+    background: url("../images/jian6/pairs.png") no-repeat;
+    margin: 0 0 1px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d1 {
+    background-position: 0 0;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d2 {
+    background-position: 0 -51px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d3 {
+    background-position: 0 -102px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d4 {
+    background-position: 0 -153px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d5 {
+    background-position: 0 -204px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d6 {
+    background-position: 0 -255px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d7 {
+    background-position: 0 -306px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d8 {
+    background-position: 0 -357px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d9 {
+    background-position: 0 -408px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d1:hover {
+    background: url("../images/jian6/purple.png") 0 0;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d2:hover {
+    background: url("../images/jian6/purple.png") 0 -51px;
+}
+
+#jian6#jian6 #fashWeeks #middle1 .day1 .d3:hover {
+    background: url("../images/jian6/purple.png") 0 -102px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d4:hover {
+    background: url("../images/jian6/purple.png") 0 -153px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d5:hover {
+    background: url("../images/jian6/purple.png") 0 -204px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d6:hover {
+    background: url("../images/jian6/purple.png") 0 -255px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d7:hover {
+    background: url("../images/jian6/purple.png") 0 -306px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d8:hover {
+    background: url("../images/jian6/purple.png") 0 -357px;
+}
+
+#jian6 #fashWeeks #middle1 .day1 .d9:hover {
+    background: url("../images/jian6/purple.png") 0 -408px;
+}
+
+#fashWeeks #middle1 #right {
+    width: 870px;
+    height: 593px;
+    position: relative;
+    top: 0;
+    left: 317px;
+}
+
+#fashWeeks #middle1 .cont {
+    width: 870px;
+    height: 593px;
+}
+
+#jian6 #fashWeeks #middle1 .basic {
+    width: 352px;
+    height: 564px;
+}
+.main.selected-basic {
+    display: block;
+}
+.main {
+    float: left;
+    display: none;
+}
+#jian6 #fashWeeks #middle1 .basic {
+    width: 352px;
+    height: 564px;
+    position: relative;
+    top: 12px;
+    left: 0;
+    overflow: hidden;
+}
+
+#jian6 #fashWeeks #middle1 .basic .run {
+    width: 1200px;
+    height: 564px;
+    position: relative;
+}
+
+#jian6 #fashWeeks #middle1 .basic li {
+    width: 352px;
+    height: 564px;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+#jian6 #fashWeeks #middle1 .basic b {
+    display: block;
+    width: 280px;
+    height: 35px;
+    font-size: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#jian6 #fashWeeks #middle1 .basic p {
+    width: 280px;
+    height: 77px;
+    background-color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 13px;
+    position: absolute;
+    left: 36px;
+    bottom: 65px;
+}
+
+#jian6 #fashWeeks .basic .cir {
+    height: 17px;
+    position: absolute;
+    left: 136px;
+    top: 527px;
+}
+
+#jian6 #fashWeeks #middle1 .basic .cir span {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+#jian6 #fashWeeks #middle1 .basic .cir .current {
+    background-color: #7741AF;
+}
+
+#jian6 #fashWeeks .cont .t-r {
+    width: 458px;
+    height: 539px;
+    padding: 54px 0 0 49px;
+    position: absolute;
+    top: 0px;
+    left: 363px;
+}
+
+#jian6 #fashWeeks .cont .t-r dl {
+    width: 420px;
+}
+
+#jian6 #fashWeeks .cont .t-r dt {
+    line-height: 33px;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+#jian6 #fashWeeks .cont .t-r a {
+    color: #fff;
+}
+
+#jian6 #fashWeeks .cont .t-r dd {
+    height: 48px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#jian6 #fashWeeks .cont .t-r .dot {
+    width: 419px;
+    border: 1px dotted #FFFFFF;
+    margin: 13px 0;
+}
+
+#jian6 #fashWeeks .cont .t-r .video {
+    width: 384px;
+    height: 276px;
+    margin: 17px 0 0 6px;
+    position: relative;
+}
+
+#jian6 #fashWeeks .t-r .video .play {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    left: 50%;
+    margin-left: -29px;
+    top: 50%;
+    margin-top: -29px;
+}
+
+#jian6 #fashion {
+    width: 100%;
+    height: 738px;
+    background: url(../images/jian6/designers-bg.jpg) bottom center no-repeat;
+    background-color: #000000;
+    margin: 0 auto;
+    position: relative;
+}
+
+#jian6 #fashion #fashion-hd {
+    height: 138px;
+}
+
+#jian6 #fashion-hd #line {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    position: absolute;
+    left: 0;
+}
+
+#jian6 #fashion-hd #left-link {
+    height: 35px;
+    line-height: 35px;
+    color: #bcbcbc;
+    position: absolute;
+    left: 192px;
+    top: 46px;
+}
+
+#jian6 #fashion-hd a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+#jian6 #fashion-hd a:hover {
+    color: #970000;
+}
+
+#jian6 #fashion-hd #title {
+    width: 460px;
+    height: 138px;
+    background: url("../images/jian6/1_r2_c2.jpg") no-repeat;
+    position: absolute;
+    left: 445px;
+}
+
+#jian6 #fashion-hd #right-link {
+    height: 35px;
+    line-height: 35px;
+    color: #bcbcbc;
+}
+
+#jian6 #right-link #list {
+    width: 122px;
+    height: 36px;
+    position: absolute;
+    left: 905px;
+    top: 46px;
+}
+
+#jian6 #right-link #list:hover #list-a {
+    border-left: 1px solid #989898;
+    border-right: 1px solid #989898;
+}
+
+#jian6 #right-link #list-a {
+    width: 122px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+}
+
+#jian6 #right-link a:hover i {
+    background-position: -22px 0;
+}
+
+#jian6 #right-link #listContent {
+    top: 35px;
+    width: 238px;
+    position: absolute;
+    max-height: 230px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 1px solid #989898;
+    background-color: #000;
+}
+
+#jian6 #right-link #listContent a {
+    display: block;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px dashed #353535;
+}
+
+#jian6 #right-link #listContent a:hover {
+    color: #fff;
+    background-color: rgba(100, 100, 100, .3);
+}
+
+#jian6 #right-link #search {
+    position: absolute;
+    left: 1028px;
+    top: 46px;
+}
+
+#jian6 #right-link #search:hover #search-a {
+    border-left: 1px solid #989898;
+    border-right: 1px solid #989898;
+}
+
+#jian6 #right-link #search-a {
+    width: 122px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+}
+
+#jian6 #right-link a i {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+    vertical-align: baseline;
+    background: url(../images/jian6/element.png) -9px 0;
+}
+
+#jian6 #right-link #quicksearch {
+    width: 320px;
+    line-height: 24px;
+    border: 1px solid #989898;
+    color: #8c8c8c;
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 14px;
+    padding: 15px 25px;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+}
+
+#jian6 #right-link #quicksearch div {
+    margin-bottom: 10px;
+}
+
+#jian6 #right-link #quicksearch #select {
+    height: 21px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+#jian6 #quicksearch #select:hover i {
+    background-position: -129px -19px;
+}
+
+#jian6 #quicksearch #select p {
+    height: 21px;
+    line-height: 21px;
+    color: #777;
+    padding-left: 8px;
+}
+
+#jian6 #quicksearch #select i {
+    width: 19px;
+    height: 19px;
+    background: url(../images/jian6/element.png) no-repeat -129px 0;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+#jian6 #quicksearch #showsList {
+    width: 318px;
+    max-height: 230px;
+    border: 1px solid #989898;
+    background-color: #000;
+    padding: 15px 0 20px;
+    position: absolute;
+    top: 21px;
+    overflow-y: auto;
+}
+
+#jian6 #quicksearch #showsList a {
+    width: 275px;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    border-bottom: 1px dashed #353535;
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#jian6 #right-link #showsList a:hover {
+    color: #fff;
+    background-color: rgba(100, 100, 100, .3);
+}
+
+#jian6 #quicksearch #search-number a {
+    color: #777;
+    font-style: italic;
+    margin: 0 3px;
+}
+
+#jian6 #quicksearch #search-number a:hover {
+    color: #970000;
+}
+
+#jian6 #quicksearch #new {
+    margin-top: 18px;
+}
+
+#jian6 #quicksearch #new a {
+    display: block;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#jian6 #fashion #fashion-bd {
+    height: 600px;
+}
+
+#jian6 #fashion-bd li {
+    list-style: none;
+    width: 360px;
+    height: 540px;
+    position: absolute;
+}
+
+#jian6 #fashion-bd li img {
+    width: 100%;
+    border: 1px solid #93999C;
+}
+
+#jian6 #fashion-bd #arrow {
+    width: 57px;
+    height: 73px;
+    position: absolute;
+    margin-top: 225px;
+    cursor: pointer;
+}
+
+#jian6 #fashion-bd #arrow i {
+    width: 57px;
+    height: 73px;
+    background-image: url("../images/jian6/element.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#jian6 #fashion-bd #arrow #arrLeft {
+    background-position: 0 -77px;
+    left: 176px;
+    z-index: 5;
+}
+
+.arrow-back {
+    background-color: #000;
+    opacity: 0;
+}
+
+#jian6 #fashion-bd #arrow #arrRight {
+    background-position: 0 -150px;
+    left: 1113px;
+    z-index: 5;
+}
+
+#jian6 #fashion #fashion-bd #bottom-des {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font: 12px/24px Arial, "Microsoft Yahei", 宋体;
+    color: #fff;
+    font-size: 16px;
+    bottom: 15px;
+    text-decoration: none;
+}
+
+#jian6 #designer {
+    width: 100%;
+    height: 868px;
+    background: url(../images/jian6/pai.jpg) bottom center no-repeat;
+    margin-top: 8px;
+}
+
+#jian6 #designer #designer-w {
+    width: 1200px;
+    height: 569px;
+    margin: 0 auto;
+    padding-top: 167px;
+}
+
+#jian6 #designer #design-top {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+#jian6 #designer #design-top #circle {
+    height: 9px;
+    position: absolute;
+    left: 585px;
+    bottom: -35px;
+    text-align: center;
+}
+
+#jian6 #design-top #circle span {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background: url(../images/jian6/element.png) no-repeat -35px 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#jian6 #design-top #circle .span-selected {
+    background-position: -44px 0;
+}
+
+#jian6 #designer #design-top li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#jian6 #designer #design-left {
+    width: 685px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+}
+
+#jian6 #design-left #arrLeft1 {
+    width: 57px;
+    height: 72px;
+    background: url("../images/jian6/element.png") no-repeat 0 -77px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -36px;
+}
+
+#jian6 #designer #design-left ul {
+    width: 3500px;
+    position: absolute;
+}
+
+#jian6 #design-left #leftMask {
+    width: 685px;
+    height: 95px;
+    background: url(../images/jian6/mask.png);
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+#jian6 #design-left #leftMask a {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 20px auto 15px auto;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#jian6 #design-left #leftMask #describe {
+    width: 645px;
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#jian6 #designer #design-right {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    overflow: hidden;
+}
+
+#jian6 #design-right #arrRight1 {
+    width: 57px;
+    height: 72px;
+    background: url("../images/jian6/element.png") no-repeat 0 -150px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -36px;
+}
+
+#jian6 #designer #design-right ul {
+    width: 1500px;
+    position: absolute;
+}
+
+#jian6 #design-right #rightMask {
+    width: 300px;
+    height: 95px;
+    background: url(../images/jian6/little-mask.png);
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+#jian6 #design-right #rightMask a {
+    display: block;
+    width: 240px;
+    color: #fff;
+    font-size: 20px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+#jian6 #footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#jian6 #footer a {
+    color: #fff;
+}
+
+#jian6 #footer #footer-top {
+    width: 100%;
+    height: 385px;
+    background-color: #8051A2;
+    padding-top: 35px;
+}
+
+#jian6 #footer #footer-top #back ul {
+    width: 1032px;
+    height: 254px;
+    margin: 32px 173px 0 160px;
+}
+
+#jian6 #footer #footer-top #back li {
+    width: 230px;
+    height: 254px;
+    float: left;
+    list-style: none;
+    margin: 0 14px;
+}
+
+#jian6 #footer #footer-top #back h3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+
+#jian6 .actGotop {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 114px;
+    height: 38px;
+    display: none;
+}
+
+#jian6 .actGotop a, .actGotop a:link {
+    width: 114px;
+    height: 38px;
+    display: inline-block;
+    background: url(../images/jian6/top.png) no-repeat;
+    opacity: .7;
+    outline: none;
+}
+
+#jian6 .actGotop a:hover {
+    width: 114px;
+    height: 38px;
+    outline: none;
+}

@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/fashion.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <style>
+
+        /*header*/
+        header {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        header nav {
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 4;
+        }
+
+        header nav h1 {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            margin-left: 70px;
+            font-size: 30px;
+            color: #FFF;
+            font-family: Magneto;
+        }
+
+        header nav ul {
+            height: 50px;
+            line-height: 50px;
+            padding-right: 50px;
+        }
+
+        header nav ul li {
+            float: left;
+
+        }
+
+        header nav ul li a {
+            padding: 0 20px;
+            display: block;
+            color: #fff;
+        }
+
+        header nav ul li a:hover {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        header #banner {
+            height: 900px;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        header #banner .inner {
+            position: relative;
+            top: 50px;
+            width: 300px;
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+            opacity: 0;
+
+        }
+
+        header #banner .inner img {
+            width: 180px;
+            height: 200px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        header #banner .inner .icon-double-angle-down {
+            color: #333;
+            opacity: 0.5;
+            cursor: pointer;
+            transition: color 1s;
+        }
+
+        header #banner .inner .icon-double-angle-down:hover {
+            color: #FF8601;
+        }
+
+        /*header结束*/
+
+        /*****footer开始*****/
+        footer {
+            width: 100%;
+            background: #333;
+            text-align: center;
+        }
+
+        footer .firend-link {
+            width: 1080px;
+            height: 60px;
+            line-height: 60px;
+            margin: 0 auto;
+            color: #FFF;
+        }
+
+        footer .firend-link li {
+            display: inline-block;
+            padding: 5px;
+
+        }
+
+        footer .firend-link li:hover {
+            color: #157CF2;
+            cursor: pointer;
+        }
+
+        footer .copyright {
+            height: 40px;
+            color: #FFF;
+            font-size: 14px;
+        }
+
+        /*****footer结束*****/</style>
+</head>
+<body>
+<!--头部-->
+<header>
+    <nav class=clearfix>
+        <a href="index.html"><h1>六麦时尚</h1></a>
+        <!--<div class="mic l">-->
+        <!--&lt;!&ndash;<audio src="Slo%20-%20Nothing%20Hurts%20Like%20This.mp3" autoplay="autoplay" controls="controls">&ndash;&gt;-->
+        <!--</audio>-->
+        <!--</div>-->
+        <ul class="r">
+            <li><a href="man.html">男士时尚</a></li>
+            <li><a href="watcher.html">腕表</a></li>
+            <li><a href="shoes.html">鞋包</a></li>
+            <li><a href="fashion.html">时装周</a></li>
+            <li><a href="waterfall.html">街拍</a></li>
+            <li><a href="women.html">时尚美图</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--内容-->
+<div id="main">
+    <!-- <div id="jian1"><h2>第一屏</h2></div>
+     <div id="jian2"><h2>第二屏</h2></div>
+     <div id="jian3"><h2>第三屏</h2></div>
+     <div id="jian4"><h2>第四屏</h2></div>
+     <div id="jian5"><h2>第五屏</h2></div>-->
+    <div id="jian6">
+
+
+        <div id="fashWeeks">
+            <div class="top1">
+                <ul class="menu1">
+                    <li><a href="javascript:void(0);" class="m1">纽约</a></li>
+                    <li><a href="javascript:void(0);" class="m2">伦敦</a></li>
+                    <li><a href="javascript:void(0);" class="m3">米兰</a></li>
+                    <li class="active"><a href="javascript:void(0);" class="m4">巴黎</a></li>
+                </ul>
+                <div id="shareBox1">
+                    <ul>
+                        <li><a href="javascript:void(0);" title="分享到新浪微博" class="share1"></a></li>
+                        <li><a href="javascript:void(0);" title="分享到QQ空间" class="share2"></a></li>
+                        <li><a href="javascript:void(0);" title="分享到QQ微博" class="share3"></a></li>
+                        <li><a href="javascript:void(0);" title="分享到人人网" class="share4"></a></li>
+                        <li><a href="javascript:void(0);" title="分享到微信" class="share5"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="middle1">
+                <div id="time1"></div>
+                <div class="day1">
+                    <ul>
+                        <li><a href="" class="d1">9.30</a></li>
+                        <li><a href="" class="d2">10.1</a></li>
+                        <li><a href="" class="d3">10.2</a></li>
+                        <li><a href="" class="d4">10.3</a></li>
+                        <li><a href="" class="d5">10.4</a></li>
+                        <li><a href="" class="d6">10.5</a></li>
+                        <li><a href="" class="d7">10.6</a></li>
+                        <li><a href="" class="d8">10.7</a></li>
+                        <li class="on"><a href="" class="d9">10.8</a></li>
+                    </ul>
+                </div>
+                <div id="right">
+                    <div class="cont">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/pairs1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/pairs2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/pairs3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>25岁的忧伤！</b>Jacquemus不是服装是艺术</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">性冷淡当道？Anthony Vaccarello可不这么看</a></dt>
+                                <dd><a href="">巴黎第一天大牌们都没上场，有点儿冷清？Anthony Vaccarello一场秀就把气氛炒热，一向擅长裂缝设计的他再次让人们感受到了性感逼人这四个字的真正含义，说...</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">刘诗诗杨幂闺蜜乱斗巴黎 是妖是仙大检测</a></dt>
+                                <dd><a href="">22016春夏巴黎时装周即将拉开帷幕，与之前的米兰、伦敦、纽约不同，巴黎时装周迎来的却是中国却仙气飘飘的女星、刘诗诗、杨幂、蒋梦婕、张曼玉都受邀出席...</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/pairs11.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/pairs22.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/pairs33.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>Dries Van Noten</b>走进提花的织梦天堂</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">Guy Laroche 谁说中性就不能性感？</a></dt>
+                                <dd><a href="">这一季，Guy Laroche的主基调就是要硬朗与性感并存，女装也可以绅士化，衬衫、皮夹克、超短裙的演绎流露出更多的是男子气的潇洒与不羁。</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">蒋梦婕征战巴黎时装周 帅气恬静展现巴黎情怀</a></dt>
+                                <dd><a href="">人气小花旦蒋梦婕征战巴黎时装周，用影像记录了来自东方的精灵在巴黎一天。当日，蒋梦婕身着浅蓝色条纹衫，悠闲享受下午茶时光，十分清爽干练。</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/c1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/c2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/c3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>Balmain</b>把精美镂空玩到极致</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">YOKA巴黎独家对话蒋梦婕 畅游水晶仙境</a></dt>
+                                <dd><a href="">巴黎当地时间10月1日，顶级水晶品牌施华洛世奇举行2016春夏新品预览活动，并邀请中国女星蒋梦婕作为嘉宾一同品鉴。而我们...</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">刘诗诗惊艳现身巴黎时装周Carven秀场</a></dt>
+                                <dd><a href="">法国当地时间10月1日，人气花旦刘诗诗受邀前往巴黎时装周Carven秀场观秀。一袭白色透视针织上衣搭配淡蓝色交叉筒裙的她轻装上...</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/a1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/a2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/a3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>Christian Dior</b>这是一场现代女性的独立宣言</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">YOKA独家专访Linda 秀场与生活其实要分开</a></dt>
+                                <dd><a href="">在巴黎时装周期间，Linda现身2106春夏Christian Dior的秀场，一袭白色的连衣裙优雅又大胆，有幸YOKA时尚网也独家对其专访。</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">景甜助阵Christian Dior秀场 露背衣裙绽放独特魅力</a></dt>
+                                <dd><a href="">法国当地时间10月2日，Christian Dior的秀场星光灿烂，甜美女神景甜也受邀出席，一身优雅的粉丝印花短裙惊艳亮相，露背的性感设计让她在现场大放异彩，洋溢着独特的青春魅力。</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/b1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/b2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/b3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>西太后喊你去游行！</b>气候变暖引发的怪诞时装秀</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">走下神坛的女神范儿 Elie Saab的实穿主义</a></dt>
+                                <dd><a href="">以女神范儿在时尚界打出名气的黎巴嫩设计师Elie Saab显然没想停留在原地，2016春夏新秀被设计师赋予更多实用性，虽然这…</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">卡戴珊女当家携女婿看秀 郭碧婷甜美可人</a></dt>
+                                <dd><a href="">作为享誉时尚圈的“红毯战衣”品牌，自然迎来众多名流前来坐镇，只是秀场外一对明星的亮相让人大跌眼镜，原来是卡戴珊家族…</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/d1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/d2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/d3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>躁起来吧Céline女郎</b>这份霸道性感的美太珍贵</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">人不在魂在 Alexander McQueen的浪漫主义</a></dt>
+                                <dd><a href="">新的一季Alexander McQueen带我们回到了上个世纪90年代，蓬乱的头发、厚底鞋……成就一个全新又浪漫的Alexander McQueen。</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">又添一枚国民老公 宋佳西装球鞋美帅全场</a></dt>
+                                <dd><a href="">宋佳身穿KENZO2015秋冬系列枣红色西装搭配白球鞋亮相KENZO2016春夏巴黎时装周秀场，这身也太美帅了，酷劲十足。</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/e1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/e2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/e3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>Stella McCartney</b>让格子与条纹有了新的颠覆</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">YOKA独家专访施华洛世奇全球创作总监</a></dt>
+                                <dd><a href="">在巴黎举行的SWAROVSKI2016春夏新品预览中，我们的YOKA有幸与品牌全球创作总监Nathalie Colin进行一次深度对话。</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">叛逆公主的华丽出逃 Saint Laurent邀你共赴</a></dt>
+                                <dd><a href="">开衩吊带礼服随性的剪裁折射那颗不安分的心；而亮片透视裙搭配朋克外套则昭示着蓄势待发的姿态。一场精心动魄的出逃即将上演…</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/f1.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/f2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/f3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>Chanel显真容</b>刘雯长腿担当美翻全场</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">Chanel航班启程 卡拉被老佛爷牵来"压轴"?</a></dt>
+                                <dd><a href="">在巴黎时装周秀场上最受年轻女孩子追捧的秀莫过于Chanel，从漫步超市到赌场奢侈风，Chanel在秀场布置上给了观众太多…</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">人道主义魅力 Valentino塑造“最美难民”</a></dt>
+                                <dd><a href="">一场时装秀能够传达的信息是丰富的，而Valentino的设计师双人组合Maria Grazia Chiuri与Pierpaolo Piccioli突破了…</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont" style="display:none;">
+                        <div class="basic">
+                            <ul class="run">
+                                <li>
+                                    <img src="images/jian6/pairs3.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/a2.jpg" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="images/jian6/c3.jpg" alt=""/>
+                                </li>
+                            </ul>
+                            <p class="add"><b>实用主义VS情感宣泄</b>Miu Miu的无理性春夏</p>
+
+                            <div class="cir">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="t-r">
+                            <dl>
+                                <dt><a href="">LV上演数字波西米亚 金属摇滚碰撞印第安风情</a></dt>
+                                <dd><a href="">时装周的最后一天，老牌Louis Vuitton终于登场了。这个从1854起步于皮具的古老品牌，早就是时尚圈的标杆了。这次作为时装周的压轴</a></dd>
+                            </dl>
+                            <div class="dot"></div>
+                            <dl>
+                                <dt><a href="">鼻环颈链宽手镯 这些时髦元素全闪现巴黎周</a></dt>
+                                <dd><a href="">还记得先前大火过一阵的鼻环，颈链和宽手镯吗？如果单看没过瘾，这次巴黎时装周就是个最佳机会，把这些时髦的珠宝流行趋势全带来了，看看街头的这些潮人们，一个个美得美酷得酷，都把自己的个性通过珠宝完美展现出来</a></dd>
+                            </dl>
+                            <div class="video">
+                                <a href=""><img src="images/jian6/video.jpg" alt=""/></a>
+
+                                <div class="play"><img src="images/jian6/play.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div id="fashion">
+            <div id="fashion-hd">
+                <div id="line"></div>
+                <div id="left-link">
+                    时装周秀场:
+                    <a href="javascript:void(0);">巴黎</a>/
+                    <a href="javascript:void(0);">米兰</a>/
+                    <a href="javascript:void(0);">伦敦</a>/
+                    <a href="javascript:void(0);">纽约</a>
+                </div>
+                <div id="title"><a href="javascript:void(0);"></a></div>
+                <div id="right-link">
+                    <div id="list">
+                        <a href="javascript:void(0);" id="list-a">
+                            秀场列表
+                            <i id="list-i"></i>
+                        </a>
+
+                        <div id="listContent" style="display: none">
+                            <a href="javascript:void(0);">2017春夏高级成衣</a>
+                            <a href="javascript:void(0);">2016秋冬高级定制</a>
+                            <a href="javascript:void(0);">2016秋冬高级成衣</a>
+                            <a href="javascript:void(0);">2016春夏高级定制</a>
+                            <a href="javascript:void(0);">2016春夏高级成衣</a>
+                            <a href="javascript:void(0);">2015秋冬高级定制</a>
+                            <a href="javascript:void(0);">2015秋冬高级成衣</a>
+                            <a href="javascript:void(0);">2015春夏高级定制</a>
+                            <a href="javascript:void(0);">2015春夏高级成衣</a>
+                            <!--<a href="javascript:void(0);">2014秋冬高级定制</a>-->
+                        </div>
+                    </div>
+                    <div id="search">
+                        <a href="javascript:void(0);" id="search-a">
+                            快速查找
+                            <i id="search-i"></i>
+                        </a>
+
+                        <div id="quicksearch" style="display: none">
+                            <div>
+                                <p>秀场列表：</p>
+                                <a href="javascript:void(0);">2017春夏高级成衣</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">2016秋冬高级定制</a>
+                            </div>
+                            <div id="select">
+                                <p>查看更多秀场</p>
+                                <i></i>
+
+                                <div id="showsList" style="display: none">
+                                    <a href="javascript:void(0);">2017春夏高级成衣</a>
+                                    <a href="javascript:void(0);">2016秋冬高级定制</a>
+                                    <a href="javascript:void(0);">2016秋冬高级成衣</a>
+                                    <a href="javascript:void(0);">2016春夏高级定制</a>
+                                    <a href="javascript:void(0);">2016春夏高级成衣</a>
+                                    <a href="javascript:void(0);">2015秋冬高级定制</a>
+                                    <a href="javascript:void(0);">2015秋冬高级成衣</a>
+                                    <a href="javascript:void(0);">2015春夏高级定制</a>
+                                    <a href="javascript:void(0);">2015春夏高级成衣</a>
+                                    <a href="javascript:void(0);">2014秋冬高级定制</a>
+                                </div>
+                            </div>
+                            <div id="search-number">
+                                <p>品牌查找：</p>
+                                <a href="javascript:void(0);">A</a>
+                                <a href="javascript:void(0);">B</a>
+                                <a href="javascript:void(0);">C</a>
+                                <a href="javascript:void(0);">D</a>
+                                <a href="javascript:void(0);">E</a>
+                                <a href="javascript:void(0);">F</a>
+                                <a href="javascript:void(0);">G</a>
+                                <a href="javascript:void(0);">H</a>
+                                <a href="javascript:void(0);">I</a>
+                                <a href="javascript:void(0);">J</a>
+                                <a href="javascript:void(0);">K</a>
+                                <a href="javascript:void(0);">L</a>
+                                <a href="javascript:void(0);">M</a>
+                                <a href="javascript:void(0);">N</a>
+                                <a href="javascript:void(0);">O</a>
+                                <a href="javascript:void(0);">P</a>
+                                <a href="javascript:void(0);">Q</a>
+                                <a href="javascript:void(0);">R</a>
+                                <a href="javascript:void(0);">S</a>
+                                <a href="javascript:void(0);">T</a>
+                                <a href="javascript:void(0);">U</a>
+                                <a href="javascript:void(0);">V</a>
+                                <a href="javascript:void(0);">W</a>
+                                <a href="javascript:void(0);">X</a>
+                                <a href="javascript:void(0);">Y</a>
+                                <a href="javascript:void(0);">Z</a>
+                                <a href="javascript:void(0);">0-9</a>
+                            </div>
+                            <div>
+                                <p>类 别：</p>
+                                <a href="javascript:void(0);">高级成衣</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">高级定制</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">婚纱</a>
+                            </div>
+                            <div>
+                                <p>时 间：</p>
+                                <a href="javascript:void(0);">2015年</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">2014年</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">2013年</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">2012年</a>
+                            </div>
+                            <div id="city-list">
+                                <p>城 市：</p>
+                                <a href="javascript:void(0);">Paris 巴黎</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">Milan 米兰</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">London 伦敦</a>
+                                <em>|</em>
+                                <a href="javascript:void(0);">New York 纽约</a>
+                            </div>
+                            <div id="new">
+                                <p>最新时装周专题：</p>
+                                <a href="javascript:void(0);"><img src="images/jian6/new.jpg" alt="2017春夏时装周"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fashion-bd">
+                <ul>
+                    <li><img src="images/jian6/1.jpg" alt=""/></li>
+                    <li><img src="images/jian6/2.jpg" alt=""/></li>
+                    <li><img src="images/jian6/3.jpg" alt=""/></li>
+                    <li><img src="images/jian6/4.jpg" alt=""/></li>
+                    <li><img src="images/jian6/5.jpg" alt=""/></li>
+                    <li><img src="images/jian6/6.jpg" alt=""/></li>
+                    <li><img src="images/jian6/7.jpg" alt=""/></li>
+                    <li><img src="images/jian6/8.jpg" alt=""/></li>
+                </ul>
+                <div id="arrow">
+                    <i id="arrLeft" class="arrow-back"></i>
+                    <i id="arrRight" class="arrow-back"></i>
+                </div>
+                <a href="javascript:void(0);" id="bottom-des"></a>
+            </div>
+        </div>
+        <div id="designer">
+            <div id="designer-w">
+                <div id="design-top">
+                    <div id="design-left">
+                        <ul>
+                            <li><img src="images/jian6/11.jpg" alt=""/></li>
+                            <li><img src="images/jian6/22.jpg" alt=""/></li>
+                            <li><img src="images/jian6/33.jpg" alt=""/></li>
+                            <li><img src="images/jian6/44.jpg" alt=""/></li>
+                        </ul>
+                        <div id="arrow1">
+                            <a href="javascript:void(0);" id="arrLeft1"></a>
+                        </div>
+                        <div id="leftMask">
+                            <a href="javascript:void(0);" title="" id="mask-title"></a>
+
+                            <div id="describe"></div>
+                        </div>
+                    </div>
+                    <div id="design-right">
+                        <ul>
+                            <li><img src="images/jian6/right1.jpg" alt=""/></li>
+                            <li><img src="images/jian6/right2.jpg" alt=""/></li>
+                            <li><img src="images/jian6/right3.jpg" width=300 height=500 alt=""/></li>
+                            <li><img src="images/jian6/right4.jpg" width=300 height=500 alt=""/></li>
+                        </ul>
+                        <div id="arrow2">
+                            <a href="javascript:void(0);" id="arrRight1"></a>
+                        </div>
+                        <div id="rightMask">
+                            <a href="javascript:void(0);" title="" id="rightTitle"></a>
+                        </div>
+                    </div>
+                    <div id="circle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <!--<div id="design-bottom"></div>-->
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footer-top">
+                <h2><img src="images/jian6/ago.png"></h2>
+
+                <div id="back">
+                    <ul>
+                        <li><a href=""><img src="images/jian6/ago1.jpg">
+
+                            <h3>2015巴黎秋冬时装周</h3></a></li>
+                        <li><a href=""><img src="images/jian6/ago2.jpg">
+
+                            <h3>2015米兰秋冬时装周</h3></a></li>
+                        <li><a href=""><img src="images/jian6/ago3.jpg">
+
+                            <h3>2015伦敦秋冬时装周</h3></a></li>
+                        <li><a href=""><img src="images/jian6/ago4.jpg">
+
+                            <h3>2015纽约秋冬时装周</h3></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--尾部-->
+        <footer>
+            <footer>
+                <ul class="firend-link">
+                    <li class="icon-github"></li>
+                    <li class="icon-twitter-sign"></li>
+                    <li class="icon-facebook-sign"></li>
+                    <li class="icon-google-plus-sign"></li>
+                    <li class="icon-linkedin-sign"></li>
+                </ul>
+                <p class="copyright">Copyright © 2016.Company name All rights reserved.</p>
+
+            </footer>
+        </footer>
+        <div class="actGotop"><a href="javascript:;" title="Top"></a></div>
+
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<!--<script src="jquery-1.12.4.min.js"></script>-->
+<script src="js/animate.js"></script>
+<script>
+
+    //    fashWeeks部分
+    var pCont = ["<b>25岁的忧伤！</b>Jacquemus不是服装是艺术", "<b>Dries Van Noten</b>走进提花的织梦天堂","<b>Balmain</b>把精美镂空玩到极致","<b>Christian Dior</b>这是一场现代女性的独立宣言","<b>西太后喊你去游行！</b>气候变暖引发的怪诞时装秀","<b>躁起来吧Céline女郎</b>这份霸道性感的美太珍贵","<b>Stella McCartney</b>让格子与条纹有了新的颠覆","<b>Chanel显真容</b>刘雯长腿担当美翻全场","<b>实用主义VS情感宣泄</b>Miu Miu的无理性春夏"];
+
+    $(function () {
+        var value;
+        var pContent = [
+            {"0": "<b>25岁的忧伤！</b>Jacquemus不是服装是艺术", "1": "<b>Pascal Millet</b>春夏季就得华丽又仙女", "2": "<b>Lea Peckre成衣秀</b>冷静自持的巴黎Style"},
+            {"0": "<b>Dries Van Noten</b>走进提花的织梦天堂", "1": "<b>Vionnet</b>不落凡间的缪斯", "2": "<b>心心念念巴黎终启程</b>场外街拍美艳迷人眼"},
+            {"0": "<b>Balmain</b>把精美镂空玩到极致", "1": "<b>Chloé</b>享受自由释放优雅", "2": "<b>LANVIN</b>论中性风的优雅可能性"},
+            {"0": "<b>Christian Dior</b>这是一场现代女性的独立宣言", "1": "<b>致敬经典 </b>Balenciaga不想对你说再见", "2": "<b>Loewe</b>有趣的服装业新革命"},
+            {"0": "<b>西太后喊你去游行！</b>气候变暖引发的怪诞时装秀", "1": "<b>川久保玲</b>前卫大秀惊掉下巴", "2": "<b>靠气质取胜</b>蒋梦婕巴黎大片显婉约魅力"},
+            {"0": "<b>躁起来吧Céline女郎</b>这份霸道性感的美太珍贵", "1": "<b>穿蕾丝裙的女战士们</b>John Galliano忆洛可可艺术", "2": "<b>只做帅气的女人</b>景甜利落短发个性蜕变"},
+            {"0": "<b>Stella McCartney</b>让格子与条纹有了新的颠覆", "1": "<b>有腔调的时尚性冷淡</b>Hermès低调而不单调", "2": "<b>穿蕾丝裙的女战士们</b>John Galliano致敬洛可艺术"},
+            {"0": "<b>Chanel显真容</b>刘雯长腿担当美翻全场", "1": "<b>有种抢镜叫郭碧婷</b>杨幂都输惨了", "2": "<b>小香包变身\"小箱包\"</b>mini套大包已out"},
+            {"0": "<b>实用主义VS情感宣泄</b>Miu Miu的无理性春夏", "1": "<b>小宋佳韩火火比美</b>LV秀场张曼玉独领风骚", "2": "<b>时装周街拍大放送</b>最耀眼穿搭时髦整个秋冬"}];
+        $(".day1>ul>li").mouseenter(function () {
+            var index = $(this).index();
+            $("#right>div").eq(index).show().siblings().hide();
+            value = pContent[index];
+        })
+
+        var width = parseInt($(".basic").css("width"));
+        $(".cir>span").mouseenter(function () {
+            $(this).addClass("current").siblings("span").removeClass("current");
+            var idx = $(this).index();
+            $(".run").animate({
+                left: -idx * width
+            })
+            $(".add").html(value[idx]);
+        })
+        // 返回顶部小火箭
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 200) { //向下滚动像素大于这个值时，即出现小火箭~
+                $('.actGotop').fadeIn(300); //火箭淡入的时间，越小出现的越快~
+            } else {
+                $('.actGotop').fadeOut(300); //火箭淡出的时间，越小消失的越快~
+            }
+        });
+        //火箭动画停留时间，越小消失的越快~
+        $('.actGotop').click(function () {
+            $('html,body').animate({scrollTop: '0px'}, 1500);
+
+        });
+
+        var src = ["NewYork.jpg", "London.jpg", "milan.jpg", "pair.jpg"];
+        $(".menu1>li").click(function () {
+            var idx = $(this).index();
+            $("#fashWeeks").css("background", "url('images/jian6/" + src[idx] + "') no-repeat");
+        })
+
+    })
+
+
+    //    fashion部分
+    //    找对象
+    var jian6 = document.getElementById("jian6");
+    var body = document.getElementById("fashion-bd");
+    var ul = body.children[0];
+    var lis = ul.children;
+    var arrow = document.getElementById("arrow");
+    var arrLeft = document.getElementById("arrLeft");
+    var arrRight = document.getElementById("arrRight");
+    var bottom_des = document.getElementById("bottom-des");
+    var list_i = document.getElementById("list-i");
+    var search_i = document.getElementById("search-i");
+    //    左右箭头缓动显示，缓动隐藏
+    arrow.onmouseover = function () {
+        animate(arrLeft, {"backgroundColor": "#000", "opacity": .5});
+        animate(arrRight, {"backgroundColor": "#000", "opacity": .5});
+    }
+    arrow.onmouseout = function () {
+        animate(arrLeft, {"backgroundColor": "#000", "opacity": 0});
+        animate(arrRight, {"backgroundColor": "#000", "opacity": 0});
+    }
+    //旋转木马
+    var config = [
+        {
+            "width": 72,
+            "top": 354,
+            "left": 636,
+            "opacity": 0.4,
+            "zIndex": 0
+        },
+        {
+            "width": 114,
+            "top": 322,
+            "left": 340,
+            "opacity": 0.5,
+            "zIndex": 1
+        },
+        {
+            "width": 216,
+            "top": 246,
+            "left": 176,
+            "opacity": 0.7,
+            "zIndex": 2
+        },
+        {
+            "width": 318,
+            "top": 170,
+            "left": 238,
+            "opacity": 0.9,
+            "zIndex": 3
+        },
+        {
+            "width": 360,
+            "top": 138,
+            "left": 492,
+            "opacity": 1,
+            "zIndex": 4
+        },
+        {
+            "width": 318,
+            "top": 170,
+            "left": 788,
+            "opacity": 0.9,
+            "zIndex": 3
+        },
+        {
+            "width": 216,
+            "top": 246,
+            "left": 952,
+            "opacity": 0.7,
+            "zIndex": 2
+        },
+        {
+            "width": 114,
+            "top": 322,
+            "left": 889,
+            "opacity": 0.5,
+            "zIndex": 1
+        }];
+    //    节流阀
+    var flag = true;
+    var arr = ["2017春夏高级成衣Longchamp", "2017春夏高级成衣Johanna Ortiz", "2017春夏高级成衣Moncler Gamme Rouge", "2017春夏高级成衣Miu Miu", "2017春夏高级成衣Louis Vuitton", "2017春夏高级成衣Mira Mikati", "2017春夏高级成衣Redemption", "2017春夏高级成衣Victor Alfaro"];
+    assign();
+    //    设置定时器
+    setInterval(function () {
+        if (flag) {
+            arr.unshift(arr.pop());
+            config.unshift(config.pop());
+            assign();
+        }
+    }, 3000);
+    function assign() {
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].setAttribute("des", arr[i]);
+            animate(lis[i], config[i], function () {
+                bottom_des.innerHTML = lis[4].getAttribute("des");
+                flag = true;
+            });
+        }
+    }
+    //    给左箭头注册点击事件
+    arrLeft.onclick = function () {
+        if (flag) {
+            arr.push(arr.shift());
+            config.push(config.shift());
+            assign();
+            flag = false;
+        }
+    }
+    //    给右箭头注册点击事件
+    arrRight.onclick = function () {
+        if (flag) {
+            arr.unshift(arr.pop());
+            config.unshift(config.pop());
+            assign();
+            flag = false;
+        }
+    }
+
+    //    找对象
+    var list = document.getElementById("list");
+    var listContent = document.getElementById("listContent");
+    //    让列表盒子显示
+    list.onmouseover = function () {
+        listContent.style.display = "block";
+        list.style.zIndex = 5;
+    }
+    //    让列表盒子隐藏
+    list.onmouseout = function () {
+        listContent.style.display = "none";
+        list.style.zIndex = 0;
+    }
+
+    //    找对象
+    var search = document.getElementById("search");
+    var quicksearch = document.getElementById("quicksearch");
+    //    让快速查找盒子显示
+    search.onmouseover = function () {
+        quicksearch.style.display = "block";
+        search.style.zIndex = 5;
+    }
+    //    让快速查找盒子隐藏
+    search.onmouseout = function () {
+        quicksearch.style.display = "none";
+        search.style.zIndex = 0;
+    }
+
+    var select = document.getElementById("select");
+    var showsList = document.getElementById("showsList");
+    select.onmouseover = function () {
+        showsList.style.display = "block";
+    }
+    select.onmouseout = function () {
+        showsList.style.display = "none";
+    }
+
+
+    //    designer部分
+    //找对象
+    var designer_w = document.getElementById("designer-w");
+    var design_left = document.getElementById("design-left");
+    var ulLeft = design_left.children[0];
+    var left_lis = ulLeft.children;
+    var design_right = document.getElementById("design-right");
+    var ulRight = design_right.children[0];
+    var right_lis = ulRight.children;
+    var circle = document.getElementById("circle");
+    var spans = circle.children;
+    var mask_a = document.getElementById("mask-title");
+    var describe = document.getElementById("describe");
+    var rightTitle = document.getElementById("rightTitle");
+    var title = ["2016春夏趋势：露肩风潮", "2016春夏趋势：趣味花果", "2016春夏趋势：白衬衣", "2016趋势：睡衣风潮", "2016春夏趋势：露肩风潮"];
+    var content = ["夏天想要性感，T台总给你更多的灵感：锁骨、腰间、后背，这些是表达高级性感的黄金点，而今年流行告诉你...", "看倦了冷静的几何、条纹图案，偶尔应该以热情的花朵或者水果pattern调剂一番。2016春夏的T台上洋溢着生机...", "白衬衣也属于永远不会嫌多的“衣橱必备”，它也是T台上永远的明星，白衬衣已经红火了不只一季，在2016年...", "睡衣如今也可以登“大雅之堂”，在2016春夏它更是炙手可热。带有滚边的睡衣款衬衫一直被视为“高段位”的...", "夏天想要性感，T台总给你更多的灵感：锁骨、腰间、后背，这些是表达高级性感的黄金点，而今年流行告诉你..."];
+    var title1 = ["学会连衣裙法则 你就拥有整个秋天", "没有什么时髦 是白衬衣搞不定的", "秋冬季节，有了毛衣，还怕寒冷吗？", "走在街头，你就是一道风景", "学会连衣裙法则 你就拥有整个秋天"];
+    //    左边ul添加一张假图片
+    var cloneLi = left_lis[0].cloneNode(true);
+    ulLeft.appendChild(cloneLi);
+    //    右边ul添加一张假图片
+    var cloneLi1 = right_lis[0].cloneNode(true);
+    ulRight.appendChild(cloneLi1);
+    var arrRight1 = document.getElementById("arrRight1");
+    var arrLeft1 = document.getElementById("arrLeft1");
+    var bigImgWidth = design_left.offsetWidth;
+    var smallImgWidth = design_right.offsetWidth;
+    for (var i = 0; i < left_lis.length; i++) {
+        left_lis[i].setAttribute("title", title[i]);
+        left_lis[i].setAttribute("content", content[i]);
+    }
+    for (var i = 0; i < right_lis.length; i++) {
+        right_lis[i].setAttribute("title1", title1[i]);
+    }
+    mask_a.innerHTML = left_lis[0].getAttribute("title");
+    describe.innerHTML = left_lis[0].getAttribute("content");
+    rightTitle.innerHTML = right_lis[0].getAttribute("title1");
+
+    spans[0].className = "span-selected";
+    for (var i = 0; i < spans.length; i++) {
+        spans[i].index = i;
+        spans[i].onmouseover = function () {
+            for (var i = 0; i < spans.length; i++) {
+                spans[i].className = "";
+            }
+            this.className = "span-selected";
+            var idx = this.index;
+            target1 = -idx * bigImgWidth;
+            target2 = -idx * smallImgWidth;
+            animate(ulLeft, {"left": target1});
+            animate(ulRight, {"left": target2});
+            mask_a.innerHTML = left_lis[idx].getAttribute("title");
+            describe.innerHTML = left_lis[idx].getAttribute("content");
+            rightTitle.innerHTML = right_lis[idx].getAttribute("title1");
+            pic = idx;
+            square = idx;
+        }
+
+    }
+    var pic = 0;
+    var target1 = 0;
+    var target2 = 0;
+    var square = 0;
+    var timer = null;
+    //    给右箭头注册点击事件
+    arrRight1.onclick = function () {
+        if (pic == left_lis.length - 1) {
+            mask_a.innerHTML = left_lis[pic].getAttribute("title");
+            describe.innerHTML = left_lis[pic].getAttribute("content");
+            rightTitle.innerHTML = right_lis[pic].getAttribute("title1");
+            pic = 0;
+            ulLeft.style.left = "0px";
+            ulRight.style.left = "0px";
+        }
+        pic++;
+        target1 = -pic * bigImgWidth;
+        target2 = -pic * smallImgWidth;
+        animate(ulLeft, {"left": target1});
+        animate(ulRight, {"left": target2});
+        if (square == spans.length - 1) {
+            square = 0;
+        }
+        else {
+            square++;
+        }
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].className = "";
+        }
+        spans[square].className = "span-selected";
+        mask_a.innerHTML = left_lis[pic].getAttribute("title");
+        describe.innerHTML = left_lis[pic].getAttribute("content");
+        rightTitle.innerHTML = right_lis[pic].getAttribute("title1");
+    }
+    //    给左箭头注册点击事件
+    arrLeft1.onclick = function () {
+        if (pic == 0) {
+            mask_a.innerHTML = left_lis[0].getAttribute("title");
+            describe.innerHTML = left_lis[0].getAttribute("content");
+            rightTitle.innerHTML = right_lis[0].getAttribute("title1");
+            pic = left_lis.length - 1;
+            ulLeft.style.left = -pic * bigImgWidth + "px";
+            ulRight.style.left = -pic * smallImgWidth + "px";
+        }
+        pic--;
+        target1 = -pic * bigImgWidth;
+        target2 = -pic * smallImgWidth;
+        animate(ulLeft, {"left": target1});
+        animate(ulRight, {"left": target2});
+        if (square == 0) {
+            square = spans.length - 1;
+        }
+        else {
+            square--;
+        }
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].className = "";
+        }
+        spans[square].className = "span-selected";
+        mask_a.innerHTML = left_lis[pic].getAttribute("title");
+        describe.innerHTML = left_lis[pic].getAttribute("content");
+        rightTitle.innerHTML = right_lis[pic].getAttribute("title1");
+    }
+    timer = setInterval(function () {
+        arrRight1.click();
+    }, 2000);
+    designer_w.onmouseover = function () {
+        clearInterval(timer);
+    }
+    designer_w.onmouseout = function () {
+        timer = setInterval(function () {
+            arrRight1.click();
+        }, 2000);
+    }
+</script>
+</body>
+</html>

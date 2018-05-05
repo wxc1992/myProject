@@ -1,0 +1,236 @@
+
+#jian3{
+    /*height: 2000px;*/
+    /*background-color: #DCCEA7;*/
+    background-image: url(../images/jian3/bg6.jpg);
+}
+
+#jian3 .hd{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.3;
+}
+
+
+#jian3 .lhd{
+    float: left;
+    width: 400px;
+    height: 2px;
+    margin-top: 30px;
+    background-color: hotpink;
+    margin-left: 50px;
+}
+#jian3 .mhd{
+    float: left;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 80px;
+}
+#jian3 .down .mhd{
+    margin-left: 60px;
+}
+#jian3 .hd span{
+    font: 24px/30px "����";
+    padding: 0px 5px;
+    color: white;
+}
+#jian3 .rhd{
+    float: right;
+    width: 400px;
+    height: 2px;
+    margin-top: 30px;
+    background-color: hotpink;
+    margin-right: 50px;
+}
+
+/*�������*/
+/*�ֲ���ʼ*/
+#jian3 #lunbo{
+    width: 1200px;
+    height: 671px;
+    margin: 0 auto;
+    position: relative;
+}
+#jian3 .screen {
+    width: 1200px;
+    height: 671px;
+    overflow: hidden;
+    position: relative;
+}
+
+#jian3 .screen li {
+    width: 1200px;
+    height: 671px;
+    overflow: hidden;
+    float: left;
+}
+
+#jian3 .screen ul {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 6000px;
+}
+
+#jian3 #lunbo ol {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#jian3 #lunbo ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#jian3 #lunbo ol li.current {
+    background: skyblue;
+}
+
+#jian3 #arr {
+    display: none;
+}
+
+#jian3 #arr span {
+    width: 100px;
+    height: 671px;
+    position: absolute;
+
+    background: #000;
+    cursor: pointer;
+    line-height: 671px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '����';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    /*border: 1px solid #fff;*/
+}
+#jian3 #arr #left{
+    left: 0px;
+    top: 0;
+}
+
+
+#jian3 #arr #right {
+    right: 0px;
+    top: 0;
+}
+
+/*�ֲ�����*/
+/*չʾ����ʼ*/
+#jian3 #bg{
+    margin:0 auto;
+    width: 1000px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+#jian3 .yiceng{
+    position: absolute;
+    left: 1250px;
+    /*text-align: center;*/
+
+}
+
+/*����c3��ʼ*/
+#jian3 #bg .container{margin: 0 auto; max-width: 1060px;}
+#jian3 #bg img{max-width: 100%; vertical-align: middle;}
+#jian3 #bg .full-length{width: 100%; float: left; padding-bottom: 80px;}
+#jian3 #bg ul{margin: 0 -1.5%;}
+#jian3 #bg li{float: left;list-style: none;}
+
+#jian3 #bg h3{font-size: 20px; }
+#jian3 #bg p{font-weight: 300; line-height: 20px; font-size: 14px; margin-bottom: 15px;}
+#jian3 #bg .btn{display: inline-block; padding: 5px 10px; font-size: 14px; color: #fff; border: 2px solid #4d92d9; background-color: #4d92d9; text-decoration: none; transition: 0.4s;}
+#jian3 #bg .btn:hover{background-color: transparent; color: #4d92d9; transition: 0.4s;}
+#jian3 #bg .text-desc{position: absolute; left: 0; top: 0; background-color: #fff; height: 100%; opacity: 0; width: 100%; padding: 20px;}
+/*= Reset CSS End
+        /* effect-1 css */
+#jian3 #bg .port-1{float: left; width: 100%; position: relative; overflow: hidden; text-align: center;}
+#jian3 #bg .port-1 .text-desc{opacity: 0.9; top: -100%; transition: 0.5s; color: #000; padding: 45px 20px 20px;}
+#jian3 #bg .port-1 img{transition: 0.5s;}
+#jian3 #bg .port-1:hover img{transform: scale(1.2);}
+
+#jian3 #bg .port-1.effect-3 .text-desc{top: 50%; left: 50%; width: 0; height: 0; overflow: hidden; padding: 0;}
+#jian3 #bg .port-1.effect-3:hover .text-desc{width: 100%; top: 0; left: 0; height: 100%; padding: 45px 20px 20px;}
+/* effect-1 css end */
+/*����c3����*/
+
+#jian3 #one{
+    width: 202px;
+    height: 188px;
+}
+
+#jian3 #one span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+#jian3 #two{
+    width: 202px;
+    height: 188px;
+}
+
+#jian3 #three{
+    width: 414px;
+    height: 252px;
+    top:198px;
+}
+
+#jian3 #four{
+    width: 225px;
+    height: 200px;
+    top: 460px;
+}
+
+#jian3 #five{
+    width: 450px;
+    height: 200px;
+    top: 460px;
+}
+
+
+#jian3 #six{
+    width: 338px;
+    height: 450px;
+}
+
+#jian3  #seven{
+    width: 250px;
+    height: 190px;
+}
+
+#jian3 #eight{
+    width: 250px;
+    height: 250px;
+    top: 200px;
+}
+
+#jian3 #nine{
+    width: 325px;
+    height: 200px;
+    top: 460px;
+}
+/*չʾ������*/
+

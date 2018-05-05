@@ -1,0 +1,423 @@
+@charset "utf-8";
+/*注意权重!  不要添加自己div以外的样式*/
+
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+/*header*/
+header{
+    width:100%;
+    background: rgba(0,0,0,0.3);
+}
+header nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+header nav h1{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 70px;
+    font-size: 30px;
+    color: #FFF;
+    font-family: Magneto;
+}
+header nav ul{
+    height: 50px;
+    line-height: 50px;
+    padding-right:50px;
+}
+header nav ul li{
+    float: left;
+
+}
+header nav ul li a{
+    padding:0 20px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+header nav ul li a:hover{
+    color: #333333;
+    text-decoration: none;
+}
+
+header #banner{
+    height: 900px;
+    background: rgba(0,0,0,0.1);
+}
+header #banner .inner{
+    position: relative;
+    top:50px;
+    width: 300px;
+    height:100px;
+    margin:0 auto;
+    text-align: center;
+    opacity: 0;
+
+}
+header #banner .inner img{
+    width:180px;
+    height:200px;
+    margin: 0 auto;
+    display: block;
+}
+header #banner .inner .icon-double-angle-down{
+    color: #333;
+    opacity: 0.5;
+    cursor: pointer;
+    transition:color 1s;
+}
+header #banner .inner .icon-double-angle-down:hover{
+    color:#FF8601;
+}
+/*header结束*/
+
+/*****footer开始*****/
+footer{
+    width:100%;
+    background: #333;
+    text-align: center;
+}
+footer .firend-link{
+    width:1080px;
+    height:60px;
+    line-height: 60px;
+    margin:0 auto;
+    color: #FFF;
+}
+footer .firend-link li{
+    display:inline-block;
+    padding: 5px;
+
+}
+footer .firend-link li:hover{
+    color:#157CF2;
+    cursor: pointer;
+}
+footer .copyright{
+    height:40px;
+    color: #FFF;
+    font-size:14px;
+}
+/*****footer结束*****/
+
+
+
+  /*jian5 第一部分*/
+/*title*/
+#jian5 {
+    height: 1754px;
+    width: 100%;
+    background-color: darkslategrey;
+    position: relative;
+}
+#jian5 .titlPic {
+    width: 100%;
+    height: 112px;
+    background:url("../images/jian5/title.png") 25px;
+    position: relative;
+    z-index: 15;
+
+
+}
+
+#jian5 .part_top {
+    height: 900px;
+    /*border: 1px solid #cccccc;*/
+    position: relative;
+    background-color: darkslategrey;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+#jian5 .part_top ul li {
+    width: 240px;
+    height: 356px;
+    text-align: center;
+    padding-top: 2px;
+    border: 2px solid #ccc;
+    position: absolute;
+    left: 480px;
+    top: 500px;
+}
+.li0 {
+    transform : rotate(330deg);
+    transition: transform 2s;
+}
+.li1 {
+    transform : rotate(380deg);
+    transition: transform 2s;
+}
+.li2 {
+    transform : rotate(390deg);
+    transition: transform 2s;
+}
+.li3 {
+    transform : rotate(397deg);
+    transition: transform 2s;
+}
+.li4 {
+    transform : rotate(363deg);
+    transition: transform 2s;
+}
+.li5 {
+    transform : rotate(336deg);
+    transition: transform 2s;
+}
+    /*Fashion*/
+#jian5 .maskTop {
+    height: 60px;
+    width: 652px;
+    position: absolute;
+    top: 235px;
+    left: -207px;
+    bottom: 20px;
+    text-align: center;
+    background: url(../images/jian5/mask-652.png);
+    line-height: 60px;
+    transform: rotate(310deg);
+    z-index: 10;
+}
+#jian5 .mask .maskTop a  {
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    text-shadow: 1px 1px 3px #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+    /*jian5 第二部分*/
+#jian5 .maskLeft, #jian5 .maskright {
+    height: 60px;
+    width: 652px;
+    position: absolute;
+    top: -85px;
+    bottom: 20px;
+    text-align: center;
+    background: url(../images/jian5/mask-652.png);
+    line-height: 60px;
+}
+#jian5 .mask .maskLeft, a,  #jian5 .mask .maskright, a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    display: inline-block;
+    text-shadow: 1px 1px 3px #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+#jian5  .maskLeft {
+    transform: rotate(-6deg);
+    left: -194px;
+}
+#jian5 .maskright{
+    transform: rotate(6deg);
+    left: 434px;
+}
+
+
+
+
+
+#jian5 .container{
+    position: relative;
+    width: 900px;
+    height: 500px;
+    margin: 60px auto 100px;
+    font: 1em 'Rationale',sans-serif;
+}
+#jian5 .slider, .img {
+    width: inherit;
+    height: inherit;
+}
+#jian5 .slider {
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    border:8px solid ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 7px 20px rgba(0,0,0,.5);
+
+}
+#jian5 .img {
+    position: absolute;
+    margin-left: -8px;
+    perspective: 500px;
+}
+#jian5 .img1 .frag {background-image: url(../images/jian5/11.jpg)}
+#jian5 .img2 .frag {background-image: url(../images/jian5/8.jpg)}
+#jian5 .img3 .frag {background-image: url(../images/jian5/9.jpg)}
+#jian5 .img4 .frag {background-image: url(../images/jian5/10.jpg)}
+#jian5 .img5 .frag {background-image: url(../images/jian5/7.jpg)}
+#jian5 .img6 .frag {background-image: url(../images/jian5/12.jpg)}
+
+#jian5 .frag {
+    width: 150px;
+    height: inherit;
+    float: left;
+    opacity: 0;
+    z-index: 0;
+    transform-origin: center right;
+    transform: rotateY(90deg) translateZ(100px) scale(1.5);
+    transition: transform .6s, opacity .6s, -webkit-filter 2s ease-out;
+    -webkit-filter: saturate(0) blur(10px) brightness(.6) contrast(4);
+}
+#jian5 .img .frag2  {
+    background-position: -150px 0;
+    transition-delay: .2s;
+}
+#jian5 .img .frag3  {
+    background-position: -300px 0;
+    transition-delay: .4s;
+}
+#jian5 .img .frag4  {
+    background-position: -450px 0;
+    transition-delay: .6s;
+}
+#jian5 .img .frag5  {
+    background-position: -600px 0;
+    transition-delay: .8s;
+}
+#jian5 .img .frag6  {
+    background-position: -750px 0;
+    transition-delay: 1s;
+}
+#jian5 #slide1:checked ~ .slider .img1 .frag,
+#jian5 #slide2:checked ~ .slider .img2 .frag,
+#jian5 #slide3:checked ~ .slider .img3 .frag,
+#jian5 #slide4:checked ~ .slider .img4 .frag,
+#jian5 #slide5:checked ~ .slider .img5 .frag,
+#jian5 #slide6:checked ~ .slider .img6 .frag {
+    transform: rotateY(0) translateZ(0) scale(1);
+    -webkit-filter: saturate(1) blur(0) brightness(1) contrast(1);
+    opacity: 1;
+    z-index: 1;
+}
+#jian5 .controls {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -115px; /*(6elem30px+5el10px)/2=115px*/
+
+}
+#jian5 .controls label {
+    display: block;
+    height: 10px;
+    width: 30px;
+    float: left;
+    background-color: ghostwhite;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: .2;
+    transition:opacity .5s;
+}
+#jian5 .controls label:hover,
+#jian5 .side-controls label:hover,
+#jian5 #slide1:checked ~ .controls label:nth-of-type(1),
+#jian5 #slide2:checked ~ .controls label:nth-of-type(2),
+#jian5 #slide3:checked ~ .controls label:nth-of-type(3),
+#jian5 #slide4:checked ~ .controls label:nth-of-type(4),
+#jian5 #slide5:checked ~ .controls label:nth-of-type(5),
+#jian5 #slide6:checked ~ .controls label:nth-of-type(6) {
+    opacity: .8;
+}
+#jian5 .side-controls label {
+    position: absolute;
+    display: block;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    top: 50%;
+    margin-top: -15px;
+    cursor: pointer;
+    opacity: .2;
+    transition:opacity .5s;
+}
+
+#jian5 #slide1:checked ~ .side-controls label:nth-of-type(6),
+#jian5 #slide2:checked ~ .side-controls label:nth-of-type(1),
+#jian5 #slide3:checked ~ .side-controls label:nth-of-type(2),
+#jian5 #slide4:checked ~ .side-controls label:nth-of-type(3),
+#jian5 #slide5:checked ~ .side-controls label:nth-of-type(4),
+#jian5 #slide6:checked ~ .side-controls label:nth-of-type(5) {
+    left: -40px;
+    border-right: 40px solid #000;
+}
+#jian5 #slide1:checked ~ .side-controls label:nth-of-type(2),
+#jian5 #slide2:checked ~ .side-controls label:nth-of-type(3),
+#jian5 #slide3:checked ~ .side-controls label:nth-of-type(4),
+#jian5 #slide4:checked ~ .side-controls label:nth-of-type(5),
+#jian5 #slide5:checked ~ .side-controls label:nth-of-type(6),
+#jian5 #slide6:checked ~ .side-controls label:nth-of-type(1) {
+    right: -59px;
+    border-left: 40px solid #000;
+}
+#jian5 .slider {
+    background-color: #000;
+}
+#jian5 .container > input {
+    display:none;
+}
+#jian5 .captions > div {
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+    color: transparent;
+    text-shadow: 0 0 60px transparent;
+    font-size: 3em;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: text-shadow 2s;
+
+}
+#jian5 #slide2:checked ~ .slider .captions .c2,
+#jian5 #slide1:checked ~ .slider .captions .c1,
+#jian5 #slide3:checked ~ .slider .captions .c3,
+#jian5 #slide4:checked ~ .slider .captions .c4,
+#jian5 #slide5:checked ~ .slider .captions .c5,
+#jian5 #slide6:checked ~ .slider .captions .c6 {
+    text-shadow: 0 0 0 rgba(255,255,255,.9)
+}
+
+/*第三部分*/
+#jian5 .part_center {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: 204px;
+    top: 264px;
+    display: none;
+}
+
+#jian5 .part_center li {
+    position: absolute;
+    z-index: 0;
+
+
+}
+#jian5 .butt{
+    width: 40px;
+    height: 40px;
+    background:url("../images/jian5/x.png") no-repeat;
+    position: relative;
+    z-index: 100;
+    border: none;
+    opacity: 0.5;
+    left: 916px;
+    top: -50px;
+    cursor: pointer;
+    border-style: none;
+}
